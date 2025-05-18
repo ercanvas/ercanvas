@@ -1,15 +1,12 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import Image from "next/image";
 import { FaLinkedin, FaGithub, FaPhone, FaEnvelope, FaMapMarkerAlt, FaEye, FaEyeSlash } from "react-icons/fa";
 import { FiChevronDown, FiMinus } from "react-icons/fi";
 import StoryModal from "./StoryModal";
 import TechLoader from "./TechLoader";
 import SpotlightBackground from "./SpotlightBackground";
 
-const name = "Ercan Yasin Yarmacı";
-const title = "Software Engineer & Backend Developer";
 const description =
   "Backend-focused, modern web applications developer. Passionate about Node.js, TypeScript, and cloud technologies.";
 const linkedin = "https://www.linkedin.com/in/ercanyarmacieng/";

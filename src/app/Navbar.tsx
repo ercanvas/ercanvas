@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
 import { FaHome, FaProjectDiagram, FaVideo, FaCreditCard, FaRegLightbulb, FaBars, FaTimes } from "react-icons/fa";
 
