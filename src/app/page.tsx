@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { FaLinkedin, FaGithub, FaPhone, FaEnvelope, FaMapMarkerAlt, FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaMapMarkerAlt, FaEye, FaEyeSlash } from "react-icons/fa";
 import { FiChevronDown, FiMinus } from "react-icons/fi";
 import StoryModal from "./StoryModal";
 import TechLoader from "./TechLoader";
@@ -177,17 +177,9 @@ export default function Home() {
                 <h2 className={`dm-sans text-base font-semibold text-center uppercase ${bgHidden ? "text-white" : "text-black"}`}>JAVASCRIPT/SOFTWARE DEVELOPER</h2>
                 <p className={`manrope text-center text-base max-w-md ${bgHidden ? "text-white" : "text-black"}`}>{description}</p>
                 <div className="flex flex-col gap-2 mt-2 w-full items-center">
-                  <a href={`tel:${phone}`} className="dm-sans flex items-center gap-2 bg-[#23232b] hover:bg-[#292933] px-4 py-2 rounded-full text-sm font-medium transition w-fit text-white" title="Call">
-                    <FaPhone className="text-[#6366f1]" />
-                    {phone}
-                  </a>
                   <a href={`mailto:${email}`} className="dm-sans flex items-center gap-2 bg-[#23232b] hover:bg-[#292933] px-4 py-2 rounded-full text-sm font-medium transition w-fit text-white" title="Send Email">
                     <FaEnvelope className="text-[#a21caf]" />
                     {email}
-                  </a>
-                  <a href={addressMap} target="_blank" rel="noopener noreferrer" className="dm-sans flex items-center gap-2 bg-[#23232b] hover:bg-[#292933] px-4 py-2 rounded-full text-sm font-medium transition w-fit text-white" title="View Address on Map">
-                    <FaMapMarkerAlt className="text-[#f59e42]" />
-                    {address}
                   </a>
                 </div>
               </div>
