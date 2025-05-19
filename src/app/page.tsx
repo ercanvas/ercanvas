@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { FaLinkedin, FaGithub, FaEnvelope, FaMapMarkerAlt, FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaEye, FaEyeSlash } from "react-icons/fa";
 import { FiChevronDown, FiMinus } from "react-icons/fi";
 import StoryModal from "./StoryModal";
 import TechLoader from "./TechLoader";
@@ -11,10 +11,7 @@ const description =
   "Backend-focused, modern web applications developer. Passionate about Node.js, TypeScript, and cloud technologies.";
 const linkedin = "https://www.linkedin.com/in/ercanyarmacieng/";
 const github = "https://github.com/ercanvas";
-const phone = "+905306693775";
 const email = "yarmaciercanyasin@gmail.com";
-const address = "Bahcelievler Mahalessi, Efeler Caddesi No: 7, Bergama - Izmir, Turkey";
-const addressMap = "https://www.google.com/maps/search/?api=1&query=Bahcelievler+Mahalessi,+Efeler+Caddesi+No:+7,+Bergama+-+Izmir,+Turkey";
 
 const about = `Detail-oriented and innovative Full Stack Developer with experience in building responsive websites, web applications, and scalable SSR/SSG and SAAS solutions. Skilled in leveraging modern technologies such as the MERN stack and Python scripting, with a strong command of cross-platform mobile development using React Native and Flutter. Proficient in using industry-standard tools including Visual Studio Code, PyCharm, JetBrains IDEs, MongoDB Compass, Postman, Docker, and Git for efficient development, testing, and deployment workflows. Known for delivering clean, maintainable code and developing high-performance, user-centric applications.`;
 
